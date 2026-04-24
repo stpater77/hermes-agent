@@ -14,3 +14,9 @@ dist/
 build/
 *.egg-info/
 .DS_Store
+
+# Do not track nested repo metadata or local virtualenvs
+hermes-webui/.git/
+hermes-webui/.git.disabled/
+hermes-webui/venv/
+hermes-webui/.venv/
